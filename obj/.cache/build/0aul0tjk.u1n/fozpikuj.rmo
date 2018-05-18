@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -88,7 +88,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_get_contacts" data-uid="graph.windows.net/myorganization/Contacts/1.6/get contacts" class="text-capitalize">get contacts</h3>
-  <div class="markdown level1 summary"><p>You can get a collection of contacts from your tenant.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">You can get a collection of contacts from your tenant.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Read</i></b> or <b><i>Contacts.Write</i></b></p>
 </div>
@@ -111,7 +111,7 @@
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -129,7 +129,7 @@
       <tbody>
       <tr>
         <td><span class="status">200</span></td>
-        <td><p>OK. Indicates success. The results are returned in the response body.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">OK. Indicates success. The results are returned in the response body.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
@@ -304,7 +304,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_get_contact_by_id" data-uid="graph.windows.net/myorganization/Contacts/1.6/get contact by id" class="text-capitalize">get contact by id</h3>
-  <div class="markdown level1 summary"><p>Get a contact by using the object ID.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Get a contact by using the object ID.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Read</i></b> or <b><i>Contacts.Write</i></b></p>
 </div>
@@ -327,14 +327,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>Specifies the version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Specifies the version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -352,7 +352,7 @@
       <tbody>
       <tr>
         <td><span class="status">200</span></td>
-        <td><p>OK. Indicates success. The contact is returned in the response body.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">OK. Indicates success. The contact is returned in the response body.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
@@ -403,7 +403,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_update_contact" data-uid="graph.windows.net/myorganization/Contacts/1.6/update contact" class="text-capitalize">update contact</h3>
-  <div class="markdown level1 summary"><p>Change a contact's properties.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Change a contact's properties.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>
 </div>
@@ -426,21 +426,21 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>7163f3b8-70c9-43d2-b9e1-4467ddaf087a</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">bodyparam</span></td>
         <td></td>
         <td></td>
-        <td><p>this is request body, not real parameter</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">this is request body, not real parameter</p>
 </td>
       </tr>
     </tbody>
@@ -458,7 +458,7 @@
       <tbody>
       <tr>
         <td><span class="status">204</span></td>
-        <td><p>No Content. Indicates success. No response body is returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">No Content. Indicates success. No response body is returned.</p>
 </td>
         <td class="sample-response">
         </td>
@@ -475,7 +475,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_delete_contact" data-uid="graph.windows.net/myorganization/Contacts/1.6/delete contact" class="text-capitalize">delete contact</h3>
-  <div class="markdown level1 summary"><p>Delete a contact.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Delete a contact.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>
 </div>
@@ -498,14 +498,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>7163f3b8-70c9-43d2-b9e1-4467ddaf087a</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>Specifies the version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Specifies the version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -523,7 +523,7 @@
       <tbody>
       <tr>
         <td><span class="status">204</span></td>
-        <td><p>No Content. Indicates success.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">No Content. Indicates success.</p>
 </td>
         <td class="sample-response">
         </td>
@@ -540,7 +540,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_get_contact_manager_link" data-uid="graph.windows.net/myorganization/Contacts/1.6/get contact manager link" class="text-capitalize">get contact manager link</h3>
-  <div class="markdown level1 summary"><p>Get a link to the contact's manager.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Get a link to the contact's manager.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Read</i></b> or <b><i>Contacts.Write</i></b></p>
 </div>
@@ -563,14 +563,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -588,7 +588,7 @@
       <tbody>
       <tr>
         <td><span class="status">200</span></td>
-        <td><p>OK. Indicates success. A link to the contact's manager is returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">OK. Indicates success. A link to the contact's manager is returned.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
@@ -602,7 +602,7 @@
       </tr>
       <tr>
         <td><span class="status">404</span></td>
-        <td><p>Not Found. The requested resource was not found. This can occur if the manager property is not currently set for the specified contact. It can also have other causes, for example, a bad domain. A code and associated message is returned with the error.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Not Found. The requested resource was not found. This can occur if the manager property is not currently set for the specified contact. It can also have other causes, for example, a bad domain. A code and associated message is returned with the error.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
@@ -631,7 +631,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_update_contact_manager" data-uid="graph.windows.net/myorganization/Contacts/1.6/update contact manager" class="text-capitalize">update contact manager</h3>
-  <div class="markdown level1 summary"><p>Update the contact's manager</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Update the contact's manager</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>
 </div>
@@ -654,21 +654,21 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*bodyparam</span></td>
         <td></td>
         <td></td>
-        <td><p>The request body contains a single property that specifies the URL of the user or contact to add as manager.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The request body contains a single property that specifies the URL of the user or contact to add as manager.</p>
 </td>
       </tr>
     </tbody>
@@ -686,7 +686,7 @@
       <tbody>
       <tr>
         <td><span class="status">204</span></td>
-        <td><p>No Content. Indicates success. No response body is returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">No Content. Indicates success. No response body is returned.</p>
 </td>
         <td class="sample-response">
         </td>
@@ -703,7 +703,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_delete_contact_manager_by_id" data-uid="graph.windows.net/myorganization/Contacts/1.6/delete contact manager by id" class="text-capitalize">delete contact manager by id</h3>
-  <div class="markdown level1 summary"><p>Delete the contact's manager.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Delete the contact's manager.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Write</i></b></p>
 </div>
@@ -726,14 +726,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -751,7 +751,7 @@
       <tbody>
       <tr>
         <td><span class="status">204</span></td>
-        <td><p>No Content. Indicates success. N response body is returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">No Content. Indicates success. N response body is returned.</p>
 </td>
         <td class="sample-response">
         </td>
@@ -768,7 +768,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_get_contact_direct_reports_links" data-uid="graph.windows.net/myorganization/Contacts/1.6/get contact direct reports links" class="text-capitalize">get contact direct reports links</h3>
-  <div class="markdown level1 summary"><p>Get a links to the contact's direct reports.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Get a links to the contact's direct reports.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Read</i></b> or <b><i>Contacts.Write</i></b></p>
 </div>
@@ -791,14 +791,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -816,7 +816,7 @@
       <tbody>
       <tr>
         <td><span class="status">200</span></td>
-        <td><p>OK. Indicates success. One or more direct reports are returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">OK. Indicates success. One or more direct reports are returned.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
@@ -844,7 +844,7 @@
     <a href="https://github.com/UKCloud/AzureStackDocFX/blob/master/restapi/contacts_swagger2.json/#L1">View Source</a>
   </span>
    <h3 id="graph_windows_net_myorganization_Contacts_1_6_get_contact_memberOf_links" data-uid="graph.windows.net/myorganization/Contacts/1.6/get contact memberOf links" class="text-capitalize">get contact memberOf links</h3>
-  <div class="markdown level1 summary"><p>Get a links to the contact's direct group and directory role memberships.</p>
+  <div class="markdown level1 summary"><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">Get a links to the contact's direct group and directory role memberships.</p>
 </div>
   <div class="markdown level1 description"><p><i>Required scope</i>: <b><i>Contacts.Read</i></b> or <b><i>Contacts.Write</i></b></p>
 </div>
@@ -867,14 +867,14 @@
         <td><span class="parametername">*object_id</span></td>
         <td>string</td>
         <td>31944231-fd52-4a7f-b32e-7902a01fddf9</td>
-        <td><p>The object ID (GUID) of the target contact.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The object ID (GUID) of the target contact.</p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">*api-version</span></td>
         <td>string</td>
         <td>1.6</td>
-        <td><p>The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">The version of the Graph API to target. Beginning with version 1.5, the api-version string is represented in major.minor format. Prior releases were represented as date strings: '2013-11-08' and '2013-04-05'. Required.</p>
 </td>
       </tr>
     </tbody>
@@ -892,7 +892,7 @@
       <tbody>
       <tr>
         <td><span class="status">200</span></td>
-        <td><p>OK. Indicates success. One or more groups and/or directory roles are returned.</p>
+        <td><p sourcefile="restapi/contacts_swagger2.json" sourcestartlinenumber="1">OK. Indicates success. One or more groups and/or directory roles are returned.</p>
 </td>
         <td class="sample-response">
           <div class="mime-type">
