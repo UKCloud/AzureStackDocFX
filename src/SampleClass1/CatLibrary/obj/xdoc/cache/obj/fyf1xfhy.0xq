@@ -1,0 +1,10 @@
+id: CatLibrary
+language: CSharp
+name:
+  Default: CatLibrary
+qualifiedName:
+  Default: CatLibrary
+type: Assembly
+modifiers: {}
+items: []
+references: {}
