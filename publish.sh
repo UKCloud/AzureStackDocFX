@@ -6,8 +6,8 @@
 #export VisualStudioVersion="15.0"
 
 #docfx ./docs/docfx.json
-docfx ./docfx/docfx.json
-#docfx docfx.json
+#docfx ./docfx/docfx.json
+docfx docfx.json
 
 SOURCE_DIR=$PWD
 TEMP_REPO_DIR=$PWD/../my-project-gh-pages
@@ -27,8 +27,8 @@ git rm -r *
 
 echo "Copy documentation into the repo"
 #cp -r $SOURCE_DIR/docs/_site/* .
-#cp -r $SOURCE_DIR/_site/* .
-cp -r $SOURCE_DIR/docfx/* ./docs/*
+cp -r $SOURCE_DIR/_site/* ./docs/*
+#cp -r $SOURCE_DIR/docfx/* ./docs/*
 
 echo "Push the new docs to the remote branch"
 git add . -A

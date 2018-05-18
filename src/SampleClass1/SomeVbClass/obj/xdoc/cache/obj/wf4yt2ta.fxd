@@ -1,0 +1,10 @@
+id: SomeVbClass
+language: VB
+name:
+  Default: SomeVbClass
+qualifiedName:
+  Default: SomeVbClass
+type: Assembly
+modifiers: {}
+items: []
+references: {}
