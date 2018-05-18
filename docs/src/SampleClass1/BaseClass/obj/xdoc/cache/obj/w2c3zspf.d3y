@@ -1,0 +1,10 @@
+id: BaseClass
+language: CSharp
+name:
+  Default: BaseClass
+qualifiedName:
+  Default: BaseClass
+type: Assembly
+modifiers: {}
+items: []
+references: {}
