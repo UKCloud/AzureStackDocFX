@@ -14,7 +14,7 @@ TEMP_REPO_DIR=$PWD/../my-project-gh-pages
 
 echo "Copy documentation into the repo"
 #cp -r $SOURCE_DIR/docs/_site/* .
-cp -r $SOURCE_DIR/_site/* ./docs/*
+cp -r $SOURCE_DIR/_site/* ./docs/
 #cp -r $SOURCE_DIR/docfx/* ./docs/*
 
 echo "Push the new docs to the remote branch"
