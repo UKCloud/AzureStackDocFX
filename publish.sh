@@ -5,7 +5,8 @@
 #export VSINSTALLDIR="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community"
 #export VisualStudioVersion="15.0"
 
-docfx ./docs/docfx.json
+#docfx ./docs/docfx.json
+docfx ./docfx/docfx.json
 #docfx docfx.json
 
 SOURCE_DIR=$PWD
@@ -25,8 +26,9 @@ cd $TEMP_REPO_DIR
 git rm -r *
 
 echo "Copy documentation into the repo"
-cp -r $SOURCE_DIR/docs/_site/* .
+#cp -r $SOURCE_DIR/docs/_site/* .
 #cp -r $SOURCE_DIR/_site/* .
+cp -r $SOURCE_DIR/docfx/* ./docs/*
 
 echo "Push the new docs to the remote branch"
 git add . -A
