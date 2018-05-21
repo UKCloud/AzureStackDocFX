@@ -10,3 +10,10 @@
     items:
     - name: Update Azure Stack
       href: azs-update-procedure.md
+  items:
+  - name: Users
+    items:
+    - name: Guides
+      items:
+      - name: Getting started guide for Sovereign Azure BETA
+        href: azs-getting-started-guide.md
