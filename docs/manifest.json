@@ -26,6 +26,81 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/azs-backup-testing123.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-backup-testing123.html",
+          "hash": "0hK4+ASRqQcY7HMNs0Jo5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/azs-getting-started-guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-getting-started-guide.html",
+          "hash": "Iojw0++9j1x7HX/CKJI98A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azs-something-testing-guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-something-testing-guide.html",
+          "hash": "y/Qctb8EKU9m2b8uzwHDyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azs-update-procedure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-update-procedure.html",
+          "hash": "xoUNyF3tprWq0Ous6sO7dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azs-update-something.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-update-something.html",
+          "hash": "L6tnC905RYJGwskk+4dEng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azs-update-test.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azs-update-test.html",
+          "hash": "wwirskKDkTj+nFETlgCeNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/csharp_coding_standards.md",
       "output": {
         ".html": {
@@ -77,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "qVXHK/CCTI6ZU4wdEwvp1Q=="
+          "hash": "Eu1rewFcFjewMjq+sUQycQ=="
         }
       },
       "is_incremental": false,
@@ -168,13 +243,13 @@
           "details": "Processor RestApiDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
