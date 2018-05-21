@@ -1,19 +1,12 @@
-- name: Getting Started
-  href: docfx_getting_started.md
-- name: Engineering Guidelines
-  href: engineering_guidelines.md
-- name: CSharp Coding Standards
-  href: csharp_coding_standards.md
-- name: Azure Stack
+- name: Operators
   items:
-  - name: Operators
-    items:
-    - name: Update Azure Stack
+  - name: Update Azure Stack
+    items: 
+    - name: Update Procedure
       href: azs-update-procedure.md
+- name: Users
   items:
-  - name: Users
+  - name: Guides
     items:
-    - name: Guides
-      items:
-      - name: Getting started guide for Sovereign Azure BETA
-        href: azs-getting-started-guide.md
+    - name: Getting started guide for Sovereign Azure BETA
+      href: azs-getting-started-guide.md

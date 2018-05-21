@@ -7,3 +7,5 @@
   href: obj/api/
 - name: REST API
   href: restapi/
+- name: Azure Stack
+  href: articles/
