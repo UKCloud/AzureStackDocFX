@@ -1,8 +1,8 @@
 
 
 
-$BaseFolder = "C:\ukrepos\AZS_dev_black\docs"
-
+#$BaseFolder = "C:\ukrepos\AZS_dev_black\docs"
+$BaseFolder = "C:\DocFXTest\articles\"
 
 $FiletypeFilter = "*.md"
 $repoStructure = Get-ChildItem -Path $BaseFolder -Filter $FiletypeFilter -Recurse
@@ -26,7 +26,9 @@ ForEach ($Rep in $repoStructure)
 }
 $TOCYamlT
 
-
+#(gc "C:\AzureStack_Installer\asdk-installer.ps1")  | ForEach {($_ -replace "elseif \(\(get-disk \| Where-Object \`{\`$`_.isboot -eq \`$true\`}\).Model -match 'Virtual Disk'\) \`{", "elseif ((get-disk | Where-Object {`$====_.isboot -eq `$true}).Model -match 'null') {") -replace "====",""} | Set-Content "C:\AzureStack_Installer\asdk-installer.ps1" -force
+To verify:
+#Select-String -Path "C:\AzureStack_Installer\asdk-installer.ps1" -pattern "elseif \(\(get-disk \| Where-Object \`{\`$`_.isboot -eq \`$true\`}\).Model -match 'null'\) \`{"
 <#
 - name: Azure Stack Operator Documentation
   href: index.yml
