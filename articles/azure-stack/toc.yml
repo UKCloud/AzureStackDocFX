@@ -1,0 +1,12 @@
+- name: Operators
+  items:
+  - name: Update Azure Stack
+    items: 
+    - name: Update Procedure
+      href: azs-update-procedure.md
+- name: Users
+  items:
+  - name: Guides
+    items:
+    - name: Getting started guide for Sovereign Azure BETA
+      href: azs-getting-started-guide.md
