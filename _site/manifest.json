@@ -26,11 +26,83 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-backup-automation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-backup-automation.html",
+          "hash": "hjF3QvAwkuJeYvBMoA+7PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-backup-powershell.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-backup-powershell.html",
+          "hash": "wBGO7iDB+Wuco6oIRfpYxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-backup-psexamples.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-backup-psexamples.html",
+          "hash": "uXmdJmn13gb6pz/3Fc/5Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/azure-stack/azs-backup-testing123.md",
       "output": {
         ".html": {
           "relative_path": "articles/azure-stack/azs-backup-testing123.html",
-          "hash": "bhiYnWNUOOTPuT2BOyLQNg=="
+          "hash": "yL1Efje0ge6zV/+YEH+6OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-backup-testing555.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-backup-testing555.html",
+          "hash": "KTVr60Y9KqdRKjfzYQA1Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-getting-started-guide-sub2.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-getting-started-guide-sub2.html",
+          "hash": "QYOoWVCmxm6prlrHUoYScw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-getting-started-guide-sub3.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-getting-started-guide-sub3.html",
+          "hash": "zELLGwoo4PiJDELVMW50gg=="
         }
       },
       "is_incremental": false,
@@ -58,6 +130,18 @@
         ".html": {
           "relative_path": "articles/azure-stack/azs-something-testing-guide.html",
           "hash": "EYxfxYv0+1iDjF0W2MkBQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure-stack/azs-update-procedure-sub2.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure-stack/azs-update-procedure-sub2.html",
+          "hash": "4/XIWOrnutL8+BgDTtIkrg=="
         }
       },
       "is_incremental": false,
