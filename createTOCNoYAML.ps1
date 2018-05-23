@@ -10,9 +10,12 @@ $repoStructure = Get-ChildItem -Path $BaseFolder -Filter $FiletypeFilter -Recurs
 $nl = [System.Environment]::NewLine
 $TOCNoYaml = ""
 ForEach ($Rep in $repoStructure) {
-    
-    $TOCNoYaml += "- name: $($Rep.BaseName) $nl"
-    $TOCNoYaml += "  href: $($Rep.Name) $nl"
+    ForEach ($MdFile in $Rep) {
+        $FullPathMd = (Select-String -Path $($Mdfile.FullName) -Pattern "toc_fullpath: "  | Select-Object -ExpandProperty Line)  -replace "toc_fullpath: ",""
+        $TOCNoYaml += $FullPathMd
+    }
+    #$TOCNoYaml += "- name: $($Rep.BaseName) $nl"
+    #$TOCNoYaml += "  href: $($Rep.Name) $nl"
 
 }
 $TOCNoYaml
