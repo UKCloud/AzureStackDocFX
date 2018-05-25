@@ -1,12 +1,48 @@
 - name: Operators
   items:
+  - name: Backup Azure Stack
+    items:
+    - name: Azure Stack Backup Testing 123
+      href: azs-backup-testing123.md
+    - name: Azure Stack Backup Testing 555
+      href: azs-backup-testing555.md
+    - name: Backup Automation
+      items:
+      - name: Azure Stack Backup Automation
+        href: azs-backup-automation.md
+      - name: Backup PowerShell Automation Sub Menu 3
+        items:
+        - name: Azure Stack Backup Automation - PowerShell
+          href: azs-backup-powershell.md
+        - name: PowerShell Examples Sub Menu 4
+          items:
+          - name: Azure Stack Backup Automation - PowerShell Examples
+            href: azs-backup-psexamples.md
   - name: Update Azure Stack
-    items: 
+    items:
+    - name: Azure Stack Update Something
+      href: azs-update-something.md
+    - name: Azure Stack Update Test
+      href: azs-update-test.md
     - name: Update Procedure
       href: azs-update-procedure.md
+    - name: Update Sub Menu 2
+      items:
+      - name: Update Procedure Sub Menu 2
+        href: azs-update-procedure-sub2.md
 - name: Users
   items:
   - name: Guides
     items:
     - name: Getting started guide for Sovereign Azure BETA
       href: azs-getting-started-guide.md
+    - name: Something Testing Guide
+      href: azs-something-testing-guide.md
+    - name: Guide Sub Menu 2
+      items:
+      - name: Getting started guide for Sovereign Azure BETA Sub Menu 2
+        href: azs-getting-started-guide-sub2.md
+      - name: Guide Sub Menu 3
+        items:
+        - name: Getting started guide for Sovereign Azure BETA Sub Menu 3
+          href: azs-getting-started-guide-sub3.md
