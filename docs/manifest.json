@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "mMW3IOuEHgilTxTCn0UWlA=="
+          "hash": "8yMKexga2NTjibqetDb21w=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/azure-stack/toc.html",
-          "hash": "9r6IGniojTWBzXxwQPGb0g=="
+          "hash": "k6MxElqq0mxFrLvQCqjF1g=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/csharp_coding_standards.html",
-          "hash": "rg2ifXqxu+3/pXhk9g7K8Q=="
+          "hash": "1xPon8R/Wa5rFUjvvbe/eQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/docfx_getting_started.html",
-          "hash": "Xs1DtieJov90PDXoXJV0uA=="
+          "hash": "tHpy9zR8yESIs5MjIy8OEQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/engineering_guidelines.html",
-          "hash": "j2/OpaUiMAioOuQKc7ZArw=="
+          "hash": "fSXHi+VAWaT/80DMxDfuGw=="
         }
       },
       "is_incremental": false,
@@ -263,7 +263,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc_old.html",
-          "hash": "3puSpyKnFpFkNeAXKw4ikg=="
+          "hash": "Dm+TCLYPfZMLMrZ9iQxk/w=="
         }
       },
       "is_incremental": false,
@@ -275,7 +275,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mNTeE2ACYJleI3ch8bCU9w=="
+          "hash": "ZGm2DzVnlDX7rh5uPvqN5w=="
         }
       },
       "is_incremental": false,
@@ -323,7 +323,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "yAvDQRdXCsmAKzhZcenAsg=="
+          "hash": "dQmMd1NjWP2ommZfGbowRA=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,8 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -342,18 +343,18 @@
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "RestApiDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor RestApiDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
