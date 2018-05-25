@@ -7,6 +7,10 @@
 
 #docfx ./docs/docfx.json
 #docfx ./docfx/docfx.json
+echo "Delete _site and obj folders before re-creating them"
+rm -rf _site/ obj/
+
+echo "Rebuild the page"
 docfx docfx.json
 
 SOURCE_DIR=$PWD
